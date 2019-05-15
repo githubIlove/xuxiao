@@ -1,0 +1,19 @@
+body div:hover {
+  color: red; }
+
+#box {
+  color: black;
+  height: 200px;
+  width: 200px;
+  background: #18b69e; }
+
+#box1 {
+  color: #18b69e;
+  background: black; }
+
+#box1 a {
+  color: #fff; }
+  #box1 a:hover {
+    color: #18b69e; }
+
+/*# sourceMappingURL=sass.css.map */

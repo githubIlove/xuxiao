@@ -1,0 +1,22 @@
+$nav-color:black;
+$box1-color:#fff;
+$bg:rgb(24, 182, 158);
+body div{
+    &:hover{color:red}
+}
+#box{
+    color: $nav-color;
+    height: 200px;
+    width: 200px;
+    background: $bg;
+    
+}
+#box1{
+    color: $bg;
+    background: $nav-color;
+}
+
+#box1 a{
+    color: $box1-color;
+    &:hover{color:$bg}
+}
